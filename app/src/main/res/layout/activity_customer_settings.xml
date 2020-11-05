@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerSettingsActivity"
+    android:orientation="vertical"
+    android:padding="20sp"
+    android:background="@drawable/wallpaper">
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:id="@+id/profileImage"
+        android:src="@drawable/user"
+        android:layout_marginBottom="20sp"/>
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginBottom="20sp"
+        android:backgroundTint="#EFF2F4"
+        android:ems="10"
+        android:fontFamily="@font/aclonica"
+        android:padding="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/edt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:layout_marginBottom="20sp"
+        android:inputType="number"
+        android:backgroundTint="#EFF2F4"
+        android:ems="10"
+        android:fontFamily="@font/aclonica"
+        android:padding="20dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_confirm"
+        android:text="confirm"
+        android:ems="10"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/custom_button"
+        android:padding="20dp"
+        app:backgroundTint="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/custom_button"
+        android:padding="20sp"
+        android:text="back"
+        app:backgroundTint="@android:color/holo_blue_light" />
+</LinearLayout>

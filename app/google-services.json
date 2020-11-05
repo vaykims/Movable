@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "604099946492",
+    "firebase_url": "https://movable-a8d30.firebaseio.com",
+    "project_id": "movable-a8d30",
+    "storage_bucket": "movable-a8d30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604099946492:android:11a2e588a6a57fcf2d7479",
+        "android_client_info": {
+          "package_name": "com.vanessa.movable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604099946492-dfrrghko36ta6cbanfahe8mc068l4139.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBako5OdVSofbcyDjztLC3axpMpu9yNci4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604099946492-dfrrghko36ta6cbanfahe8mc068l4139.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
